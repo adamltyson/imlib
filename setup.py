@@ -23,15 +23,13 @@ setup(
     install_requires=requirements,
     extras_require={
         "dev": [
-            "sphinx",
-            "recommonmark",
-            "sphinx_rtd_theme",
-            "pydoc-markdown",
             "black",
             "pytest-cov",
             "pytest",
-            "gitpython",
             "coverage",
+            "bump2version",
+            "pre-commit",
+            "flake8",
         ]
     },
     python_requires=">=3.7",
