@@ -12,7 +12,7 @@ requirements = [
     "scipy",
     "scikit-image",
     "seaborn",
-    "vtkplotter",
+    "vedo",
 ]
 
 
